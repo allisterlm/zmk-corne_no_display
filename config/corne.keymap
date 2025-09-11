@@ -28,6 +28,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        ColemakToggle {
+            bindings = <&tog 1>;
+            key-positions = <0 1>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
