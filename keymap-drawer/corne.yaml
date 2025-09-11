@@ -176,9 +176,9 @@ layers:
   - OUT USB
   - Gui+L
   - PRINTSCREEN
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - $$mdi:progress-download$$
+  - KP NUMLOCK
   - KP DIVIDE
   - KP 7
   - KP 8
