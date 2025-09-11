@@ -157,7 +157,7 @@ layers:
   - $$mdi:apple-keyboard-caps$$
   - F11
   - F12
-  - PREV
+  - $$mdi:skip-previous$$
   - PLAY PAUSE
   - $$mdi:skip-next$$
   - Ctl+Sft+$$mdi:keyboard-tab$$
