@@ -176,7 +176,7 @@ layers:
   - OUT USB
   - Gui+L
   - PRINTSCREEN
-  - '&studio_unlock'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - $$mdi:progress-download$$
   - KP DIVIDE
