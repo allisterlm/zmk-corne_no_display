@@ -37,11 +37,11 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-control$$
-  - {t: Numpad & Fn, h: toggle}
+  - {t: Numpad & System, h: Numpad & System}
   - {t: '$$mdi:keyboard-return$$', h: NUMBER & SYMBOLS}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:keyboard-space$$', h: NAV}
+  - {t: '$$mdi:keyboard-space$$', h: NAV & Fn}
   - RWIN
   QWERTY:
   - $$mdi:keyboard-esc$$
@@ -80,11 +80,11 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-control$$
-  - {t: Numpad & Fn, h: toggle}
+  - {t: Numpad & System, h: Numpad & System}
   - {t: '$$mdi:keyboard-return$$', h: NUMBER & SYMBOLS}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:keyboard-space$$', h: NAV}
+  - {t: '$$mdi:keyboard-space$$', h: NAV & Fn}
   - RWIN
   NUMBER & SYMBOLS:
   - '~'
@@ -129,7 +129,7 @@ layers:
   - INS
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  NAV:
+  NAV & Fn:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
   - '@'
@@ -172,7 +172,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  Numpad & Fn:
+  Numpad & System:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
@@ -209,7 +209,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - SCROLLLOCK
   - PAUSE BREAK
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

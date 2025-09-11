@@ -453,12 +453,13 @@ rect.held, rect.combo.held {
 <g transform="translate(223, 204)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#Numpad--Fn">
+<a href="#Numpad--System">
 <text x="0" y="-4" class="key tap layer-activator">
-<tspan x="0" dy="-1.2em">Numpad</tspan><tspan x="0" dy="1.2em">&amp;</tspan><tspan x="0" dy="1.2em">Fn</tspan>
+<tspan x="0" dy="-1.2em">Numpad</tspan><tspan x="0" dy="1.2em">&amp;</tspan><tspan x="0" dy="1.2em">System</tspan>
 </text>
-</a><text x="0" y="24" class="key hold">toggle</text>
-</g>
+</a><a href="#Numpad--System">
+<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 60%">Numpad &amp; …</tspan></text>
+</a></g>
 <g transform="translate(284, 212) rotate(15.0)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
@@ -482,8 +483,8 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:keyboard-space"/>
-<a href="#NAV">
-<text x="0" y="24" class="key hold layer-activator">NAV</text>
+<a href="#NAV--Fn">
+<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 75%">NAV &amp; Fn</tspan></text>
 </a></g>
 <g transform="translate(617, 204)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -689,12 +690,13 @@ rect.held, rect.combo.held {
 <g transform="translate(223, 204)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#Numpad--Fn">
+<a href="#Numpad--System">
 <text x="0" y="-4" class="key tap layer-activator">
-<tspan x="0" dy="-1.2em">Numpad</tspan><tspan x="0" dy="1.2em">&amp;</tspan><tspan x="0" dy="1.2em">Fn</tspan>
+<tspan x="0" dy="-1.2em">Numpad</tspan><tspan x="0" dy="1.2em">&amp;</tspan><tspan x="0" dy="1.2em">System</tspan>
 </text>
-</a><text x="0" y="24" class="key hold">toggle</text>
-</g>
+</a><a href="#Numpad--System">
+<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 60%">Numpad &amp; …</tspan></text>
+</a></g>
 <g transform="translate(284, 212) rotate(15.0)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
@@ -718,8 +720,8 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:keyboard-space"/>
-<a href="#NAV">
-<text x="0" y="24" class="key hold layer-activator">NAV</text>
+<a href="#NAV--Fn">
+<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 75%">NAV &amp; Fn</tspan></text>
 </a></g>
 <g transform="translate(617, 204)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -979,8 +981,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 991)" class="layer-NAV">
-<text x="0" y="28" class="label" id="NAV">NAV:</text>
+<g transform="translate(40, 991)" class="layer-NAV &amp; Fn">
+<text x="0" y="28" class="label" id="NAV--Fn">NAV &amp; Fn:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -1209,8 +1211,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 1321)" class="layer-Numpad &amp; Fn">
-<text x="0" y="28" class="label" id="Numpad--Fn">Numpad &amp; Fn:</text>
+<g transform="translate(40, 1321)" class="layer-Numpad &amp; System">
+<text x="0" y="28" class="label" id="Numpad--System">Numpad &amp; System:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -1394,10 +1396,9 @@ rect.held, rect.combo.held {
 <tspan x="0" dy="-0.6em">PAUSE</tspan><tspan x="0" dy="1.2em">BREAK</tspan>
 </text>
 </g>
-<g transform="translate(223, 204)" class="key trans keypos-36">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(223, 204)" class="key held keypos-36">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held"/>
 </g>
 <g transform="translate(284, 212) rotate(15.0)" class="key trans keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
