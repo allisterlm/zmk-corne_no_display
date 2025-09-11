@@ -154,7 +154,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - $$mdi:volume-low$$
   - $$mdi:brightness-7$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-caps$$
   - F11
   - F12
   - PREVIOUS
