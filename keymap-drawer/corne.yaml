@@ -209,7 +209,7 @@ layers:
   - KP 3
   - .
   - KP ENTER
-  - {type: held}
+  - {t: Numpad & System, h: Numpad & System, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
