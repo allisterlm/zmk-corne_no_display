@@ -118,10 +118,10 @@
         toggle_layer {
             display-name = "Numpad & System";
             bindings = <
-&out OUT_USB     &kp LG(L)        &kp PRINTSCREEN  &none            &sys_reset       &bootloader        &kp KP_DIVIDE    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS  &kp KP_NUMLOCK
-&out OUT_BLE     &bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3       &kp KP_MULTIPLY  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS   &kp KP_ENTER
-&rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI    &kp COMMA        &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp KP_CLEAR
-                                                   &trans           &trans           &trans             &trans           &trans           &kp KP_NUMBER_0
+&out OUT_USB     &kp LG(L)        &kp PRINTSCREEN  &sys_reset       &bootloader      &kp KP_NUMLOCK     &kp KP_DIVIDE    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS  &kp DELETE
+&out OUT_BLE     &bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3       &kp KP_MULTIPLY  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS   &kp EQUAL
+&rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI    &kp COMMA        &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp KP_ENTER
+                                                   &trans           &lt 2 ENTER      &trans             &trans           &lt 3 SPACE      &kp KP_NUMBER_0
             >;
         };
     };
