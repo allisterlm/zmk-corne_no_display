@@ -176,15 +176,15 @@ layers:
   - OUT USB
   - Gui+L
   - PRINTSCREEN
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - $$mdi:progress-download$$
+  - KP NUMLOCK
   - KP DIVIDE
   - KP 7
   - KP 8
   - KP 9
   - KP MINUS
-  - KP NUMLOCK
+  - $$mdi:backspace-reverse-outline$$
   - OUT BLE
   - $$mdi:bluetooth-off$$
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
@@ -196,7 +196,7 @@ layers:
   - KP 5
   - KP 6
   - KP PLUS
-  - KP ENTER
+  - {t: '=', s: +}
   - RGB TOG
   - RGB EFF
   - RGB HUD
@@ -208,12 +208,12 @@ layers:
   - KP 2
   - KP 3
   - .
-  - KP CLEAR
+  - KP ENTER
   - {type: held}
+  - {t: '$$mdi:keyboard-return$$', h: NUMBER & SYMBOLS}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:keyboard-space$$', h: NAV & Fn}
   - KP 0
 combos:
 - p: [0, 1]
