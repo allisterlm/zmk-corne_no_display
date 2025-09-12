@@ -87,7 +87,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: NAV & Fn}
   - RWIN
   NUMBER & SYMBOLS:
-  - '~'
+  - {t: '`', s: '~'}
   - '!'
   - '@'
   - '#'
@@ -98,8 +98,8 @@ layers:
   - '*'
   - (
   - )
-  - _
-  - {t: '`', s: '~'}
+  - {t: '-', s: _}
+  - {t: '=', s: +}
   - '1'
   - '2'
   - '3'
@@ -110,7 +110,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '-', s: _}
+  - {t: \, s: '|'}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+Z
   - Ctl+X
@@ -119,10 +119,10 @@ layers:
   - Ctl+V
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: ;, s: ':'}
-  - {t: \, s: '|'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -196,11 +196,11 @@ layers:
   - KP 5
   - KP 6
   - KP PLUS
-  - KP EQUAL
-  - RGB OFF
-  - RGB ON
-  - RGB EFR
+  - KP ENTER
+  - RGB TOG
   - RGB EFF
+  - RGB HUD
+  - RGB HUI
   - RGB BRD
   - RGB BRI
   - {t: ',', s: <}
@@ -208,7 +208,7 @@ layers:
   - KP 2
   - KP 3
   - .
-  - KP ENTER
+  - KP CLEAR
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
