@@ -123,7 +123,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: ;, s: ':'}
   - {t: \, s: '|'}
-  - $$mdi:apple-keyboard-caps$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -166,7 +166,7 @@ layers:
   - Ctl+Gui+$$mdi:arrow-right-bold$$
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - LEFT WIN
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -176,15 +176,15 @@ layers:
   - OUT USB
   - Gui+L
   - PRINTSCREEN
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - $$mdi:progress-download$$
-  - KP NUMLOCK
   - KP DIVIDE
   - KP 7
   - KP 8
   - KP 9
   - KP MINUS
-  - $$mdi:progress-download$$
+  - KP NUMLOCK
   - OUT BLE
   - $$mdi:bluetooth-off$$
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
@@ -218,3 +218,5 @@ layers:
 combos:
 - p: [0, 1]
   k: {t: QWERTY, h: toggle}
+- p: [24, 39]
+  k: $$mdi:apple-keyboard-caps$$
