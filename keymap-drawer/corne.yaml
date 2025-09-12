@@ -176,7 +176,7 @@ layers:
   - OUT USB
   - Gui+L
   - PRINTSCREEN
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&studio_unlock'
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - $$mdi:progress-download$$
   - KP DIVIDE
@@ -209,7 +209,7 @@ layers:
   - KP 3
   - .
   - KP ENTER
-  - {t: Numpad & System, h: Numpad & System, type: held}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
