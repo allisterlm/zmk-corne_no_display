@@ -86,6 +86,49 @@ layers:
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-space$$', h: NAV & Fn}
   - RWIN
+  Numpad & System:
+  - OUT USB
+  - Gui+L
+  - PRINTSCREEN
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - $$mdi:progress-download$$
+  - KP NUMLOCK
+  - KP DIVIDE
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP MINUS
+  - $$mdi:backspace-reverse-outline$$
+  - OUT BLE
+  - $$mdi:bluetooth-off$$
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
+  - KP MULTIPLY
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP PLUS
+  - {t: '=', s: +}
+  - RGB TOG
+  - RGB EFF
+  - RGB HUD
+  - RGB HUI
+  - RGB BRD
+  - RGB BRI
+  - {t: ',', s: <}
+  - KP 1
+  - KP 2
+  - KP 3
+  - .
+  - KP ENTER
+  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - KP 0
   NUMBER & SYMBOLS:
   - {t: '`', s: '~'}
   - '!'
@@ -172,49 +215,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  Numpad & System:
-  - OUT USB
-  - Gui+L
-  - PRINTSCREEN
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - $$mdi:progress-download$$
-  - KP NUMLOCK
-  - KP DIVIDE
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP MINUS
-  - $$mdi:backspace-reverse-outline$$
-  - OUT BLE
-  - $$mdi:bluetooth-off$$
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
-  - KP MULTIPLY
-  - KP 4
-  - KP 5
-  - KP 6
-  - KP PLUS
-  - {t: '=', s: +}
-  - RGB TOG
-  - RGB EFF
-  - RGB HUD
-  - RGB HUI
-  - RGB BRD
-  - RGB BRI
-  - {t: ',', s: <}
-  - KP 1
-  - KP 2
-  - KP 3
-  - .
-  - KP ENTER
-  - {type: held}
-  - {t: '$$mdi:keyboard-return$$', h: NUMBER & SYMBOLS}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:keyboard-space$$', h: NAV & Fn}
-  - KP 0
 combos:
 - p: [0, 1]
   k: {t: QWERTY, h: toggle}
