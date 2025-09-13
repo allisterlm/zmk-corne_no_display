@@ -84,20 +84,20 @@
         toggle_layer {
             display-name = "Nav & Numpad";
             bindings = <
-&trans  &kp F2     &kp HOME        &kp UP_ARROW    &kp END    &kp PAGE_UP      &kp KP_DIVIDE    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS  &kp DELETE
-&trans  &kp LC(A)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp PAGE_DOWN    &kp KP_MULTIPLY  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS   &kp EQUAL
-&trans  &kp LC(Z)  &kp LC(X)       &kp LC(C)       &none      &kp LC(V)        &kp COMMA        &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp KP_ENTER
-                                   &tog 2          &trans     &trans           &trans           &trans           &kp KP_NUMBER_0
+&trans  &kp F2     &kp HOME        &kp UP_ARROW    &kp END    &kp PAGE_UP      &kp KP_DIVIDE    &kp N7        &kp N8        &kp N9        &kp KP_MINUS  &kp DELETE
+&trans  &kp LC(A)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp PAGE_DOWN    &kp KP_MULTIPLY  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp KP_PLUS   &kp EQUAL
+&trans  &kp LC(Z)  &kp LC(X)       &kp LC(C)       &none      &kp LC(V)        &kp COMMA        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &kp KP_ENTER
+                                   &tog 2          &trans     &trans           &trans           &trans        &kp N0
             >;
         };
 
         system_layer {
             display-name = "System & Numpad";
             bindings = <
-&out OUT_USB     &kp LG(L)        &kp PRINTSCREEN  &sys_reset       &bootloader      &tog 2             &kp KP_DIVIDE    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS  &kp KP_NUMLOCK
-&out OUT_BLE     &bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3       &kp KP_MULTIPLY  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS   &kp EQUAL
-&rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI    &kp COMMA        &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp KP_ENTER
-                                                   &trans           &trans           &trans             &trans           &trans           &kp KP_NUMBER_0
+&out OUT_USB     &kp LG(L)        &kp PRINTSCREEN  &sys_reset       &bootloader      &tog 2             &kp KP_DIVIDE    &kp N7        &kp N8        &kp N9        &kp KP_MINUS  &kp KP_NUMLOCK
+&out OUT_BLE     &bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3       &kp KP_MULTIPLY  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp KP_PLUS   &kp EQUAL
+&rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI    &kp COMMA        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &kp KP_ENTER
+                                                   &trans           &trans           &trans             &trans           &trans        &kp N0
             >;
         };
 
