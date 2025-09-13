@@ -94,9 +94,9 @@ layers:
   - END
   - PgUp
   - KP DIVIDE
-  - KP 7
-  - KP 8
-  - KP 9
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
   - KP MINUS
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -106,9 +106,9 @@ layers:
   - $$mdi:arrow-right-bold$$
   - PgDn
   - KP MULTIPLY
-  - KP 4
-  - KP 5
-  - KP 6
+  - '4'
+  - {t: '5', s: '%'}
+  - '6'
   - KP PLUS
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -118,9 +118,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+V
   - {t: ',', s: <}
-  - KP 1
-  - KP 2
-  - KP 3
+  - '1'
+  - '2'
+  - '3'
   - .
   - KP ENTER
   - {t: Nav & Numpad, h: toggle}
@@ -128,7 +128,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - KP 0
+  - {t: '0', s: )}
   System & Numpad:
   - OUT USB
   - Gui+L
@@ -137,9 +137,9 @@ layers:
   - $$mdi:progress-download$$
   - {t: Nav & Numpad, h: toggle}
   - KP DIVIDE
-  - KP 7
-  - KP 8
-  - KP 9
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
   - KP MINUS
   - KP NUMLOCK
   - OUT BLE
@@ -149,9 +149,9 @@ layers:
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - KP MULTIPLY
-  - KP 4
-  - KP 5
-  - KP 6
+  - '4'
+  - {t: '5', s: '%'}
+  - '6'
   - KP PLUS
   - {t: '=', s: +}
   - RGB TOG
@@ -161,9 +161,9 @@ layers:
   - RGB BRD
   - RGB BRI
   - {t: ',', s: <}
-  - KP 1
-  - KP 2
-  - KP 3
+  - '1'
+  - '2'
+  - '3'
   - .
   - KP ENTER
   - {type: held}
@@ -171,7 +171,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - KP 0
+  - {t: '0', s: )}
   NUMBER & SYMBOLS:
   - {t: '`', s: '~'}
   - '!'
