@@ -64,27 +64,37 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESCAPE      &kp Q  &kp W  &kp F        &kp P        &kp B            &kp J                      &kp L        &kp U      &kp Y    &kp SEMICOLON  &kp DEL
-&kp LEFT_ALT    &kp A  &kp R  &kp S        &kp T        &kp G            &kp M                      &kp N        &kp E      &kp I    &kp O          &kp SQT
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C        &kp D        &kp V            &kp K                      &kp H        &kp COMMA  &kp DOT  &kp FSLH       &kp RCTRL
-                              &mo_tog 2 2  &lt 3 ENTER  &mt LCTRL TAB    &mt RIGHT_SHIFT BACKSPACE  &lt 4 SPACE  &kp RWIN
+&kp ESCAPE      &kp Q  &kp W  &kp F         &kp P        &kp B            &kp J                      &kp L        &kp U      &kp Y    &kp SEMICOLON  &kp MINUS
+&kp LEFT_ALT    &kp A  &kp R  &kp S         &kp T        &kp G            &kp M                      &kp N        &kp E      &kp I    &kp O          &kp SQT
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C         &kp D        &kp V            &kp K                      &kp H        &kp COMMA  &kp DOT  &kp FSLH       &kp RCTRL
+                              &lt 3 DELETE  &lt 4 ENTER  &mt LCTRL TAB    &mt RIGHT_SHIFT BACKSPACE  &lt 5 SPACE  &kp RWIN
             >;
         };
 
         alt_layout {
             display-name = "QWERTY";
             bindings = <
-&kp ESCAPE      &kp Q  &kp W  &kp E        &kp R        &kp T            &kp Y                      &kp U        &kp I      &kp O    &kp P     &kp DEL
-&kp LEFT_ALT    &kp A  &kp S  &kp D        &kp F        &kp G            &kp H                      &kp J        &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C        &kp V        &kp B            &kp N                      &kp M        &kp COMMA  &kp DOT  &kp FSLH  &kp RCTRL
-                              &mo_tog 2 2  &lt 3 ENTER  &mt LCTRL TAB    &mt RIGHT_SHIFT BACKSPACE  &lt 4 SPACE  &kp RWIN
+&kp ESCAPE      &kp Q  &kp W  &kp E         &kp R        &kp T            &kp Y                      &kp U        &kp I      &kp O    &kp P     &kp MINUS
+&kp LEFT_ALT    &kp A  &kp S  &kp D         &kp F        &kp G            &kp H                      &kp J        &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C         &kp V        &kp B            &kp N                      &kp M        &kp COMMA  &kp DOT  &kp FSLH  &kp RCTRL
+                              &lt 3 DELETE  &lt 4 ENTER  &mt LCTRL TAB    &mt RIGHT_SHIFT BACKSPACE  &lt 5 SPACE  &kp RWIN
             >;
         };
 
         toggle_layer {
-            display-name = "Numpad & System";
+            display-name = "Nav & Numpad";
             bindings = <
-&out OUT_USB     &kp LG(L)        &kp PRINTSCREEN  &sys_reset       &bootloader      &kp KP_NUMLOCK     &kp KP_DIVIDE    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS  &kp DELETE
+&trans  &kp F2     &kp HOME        &kp UP_ARROW    &kp END    &kp PAGE_UP      &kp KP_DIVIDE    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS  &kp DELETE
+&trans  &kp LC(A)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp PAGE_DOWN    &kp KP_MULTIPLY  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS   &kp EQUAL
+&trans  &kp LC(Z)  &kp LC(X)       &kp LC(C)       &none      &kp LC(V)        &kp COMMA        &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp KP_ENTER
+                                   &tog 2          &trans     &trans           &trans           &trans           &kp KP_NUMBER_0
+            >;
+        };
+
+        system_layer {
+            display-name = "System & Numpad";
+            bindings = <
+&out OUT_USB     &kp LG(L)        &kp PRINTSCREEN  &sys_reset       &bootloader      &tog 2             &kp KP_DIVIDE    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS  &kp KP_NUMLOCK
 &out OUT_BLE     &bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3       &kp KP_MULTIPLY  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS   &kp EQUAL
 &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI    &kp COMMA        &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp KP_ENTER
                                                    &trans           &trans           &trans             &trans           &trans           &kp KP_NUMBER_0
