@@ -12,7 +12,7 @@ layers:
   - U
   - Y
   - {t: ;, s: ':'}
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '-', s: _}
   - $$mdi:apple-keyboard-option$$
   - A
   - R
@@ -37,7 +37,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-control$$
-  - {t: Numpad & System, h: Numpad & System}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: System & Numpad}
   - {t: '$$mdi:keyboard-return$$', h: NUMBER & SYMBOLS}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-shift$$'}
@@ -55,7 +55,7 @@ layers:
   - I
   - O
   - P
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '-', s: _}
   - $$mdi:apple-keyboard-option$$
   - A
   - S
@@ -80,25 +80,68 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-control$$
-  - {t: Numpad & System, h: Numpad & System}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: System & Numpad}
   - {t: '$$mdi:keyboard-return$$', h: NUMBER & SYMBOLS}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-space$$', h: NAV & Fn}
   - RWIN
-  Numpad & System:
-  - OUT USB
-  - Gui+L
-  - PRINTSCREEN
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - $$mdi:progress-download$$
-  - KP NUMLOCK
+  Nav & Numpad:
+  - {t: '$$mdi:transfer$$', type: trans}
+  - F2
+  - HOME
+  - $$mdi:arrow-up-bold$$
+  - END
+  - PgUp
   - KP DIVIDE
   - KP 7
   - KP 8
   - KP 9
   - KP MINUS
   - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+A
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
+  - PgDn
+  - KP MULTIPLY
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP PLUS
+  - {t: '=', s: +}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+V
+  - {t: ',', s: <}
+  - KP 1
+  - KP 2
+  - KP 3
+  - .
+  - KP ENTER
+  - {t: Nav & Numpad, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - KP 0
+  System & Numpad:
+  - OUT USB
+  - Gui+L
+  - PRINTSCREEN
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - $$mdi:progress-download$$
+  - {t: Nav & Numpad, h: toggle}
+  - KP DIVIDE
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP MINUS
+  - KP NUMLOCK
   - OUT BLE
   - $$mdi:bluetooth-off$$
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
